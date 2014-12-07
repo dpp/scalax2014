@@ -4,7 +4,7 @@ Lift: an 8 Year Retrospective
 
 Contains:
 
-* The Dragonmark Presentation
+* The Lift Presentation
 * Reveal JS
 * Images used in the presentation
 
@@ -15,3 +15,8 @@ Reveal JS is MIT licensed
 Images copyright their respective creators.
 
 Image sources:
+
+* http://tympanus.net/codrops/2013/07/17/troubleshooting-css/wat/
+* http://fxcnews.com/feeding-bears-can-be-costly/14800/
+* https://www.assembla.com/spaces/scala-ide/tickets/1000672-broken-when-using-m2e-and-m2e-scala#/activity/ticket:
+* http://pascalsplayhouse.com/2014/01/09/attack-of-the-jazz-hands/

@@ -43,12 +43,62 @@
       <div class="slides">
         <section>
           <h1>Lift</h1>
-          <h3>An Year Retrospective</h3>
+          <h3>An 8 Year Retrospective</h3>
           <p>
             <small>Scala eXchange 2014</small>
             <br>
             <small><a href="http://dpp.rocks">David Pollak</a> / <a href="https://twitter.com/dpp">@dpp</a></small>
           </p>
+
+
+          <p>
+Thanks to the Lift Committers: <br>
+
+<small>
+Burak Emir -
+Diego Medina -
+Peter Petersson -
+David Bernard -
+Kris Nuttycombe -
+Maciek Starzyk -
+Philipp Schmidt -
+David Pollak -
+Alex Boisvert -
+Debby Meredith -
+Stepan Koltsov -
+Alex Payne -
+Marius Danciu -
+Indrajit Raychaudhuri -
+Andreas Joseph Krogh -
+Ross Mellgren -
+Vassil Dichev -
+Carsten -
+Joe Barnes -
+Dave Whittaker -
+Ján Raška -
+Jonas Bonér -
+Eric Torreborre -
+Jonathan Hoffman -
+Julien Wetterwald -
+Franz Bettag -
+Viktor Klang -
+Daniel Green -
+Jorge Ortiz -
+Torsten Uhlmann -
+Steve Jenson -
+Mads Hartmann Jensen -
+Timothy Perrett -
+Francois Bertrand -
+Tyler Weir -
+Reuben Doetsch -
+Derek Chen-Becker -
+Jeppe Nejsum Madsen -
+Chris Wilkes -
+Harry Heymann -
+Heiko Seeberger -
+Al Thompson
+</small>
+            </p>
         </section>
 
 
@@ -65,13 +115,266 @@
         </section>
 
         <section>
-          <h2>Lift</h2>
+          <h2><img src="http://liftweb.net/images/liftweb-logo-single-small2.png"></h2>
+          <ul>
+            <li>The Lift codebase is more than 8 years old</li>
+            <li class="fragment">Top 3% of team size, commits, velocity, age</li>
+            <li class="fragment">More than a software project<span class="fragment">: Volunteer effort</span></li>
+
+          </ul>
+        </section>
+
+        <section>
+          <h2>'Hello, Joe' &amp; Rubyconf 2006</h2>
+
+          <iframe width="420" height="315" src="https://www.youtube.com/embed/uKfKtXYLG78" frameborder="0" allowfullscreen></iframe>
+
+          <p class="fragment">Mocking another language turned me off.</p>
+          <p class="fragment">As did disdain for types and "Enterprisey" things.</p>
+          <p class="fragment">Googled "Functional language, jvm"</p>
+        </section>
+
+        <section>
+          <h2>Found Scala</h2>
+          <ul>
+            <li>Best of Ruby and Java</li>
+            <li class="fragment">Java interop "Just Worked"&trade;</li>
+            <li class="fragment">Seemed like the best thing <span class="fragment">EVER!!</span></li>
+          </ul>
+          <br>
+          <img class="fragment" src="http://www.scala-lang.org/resources/img/smooth-spiral.png">
+        </section>
+
+        <section>
+          <h2>Scala 2.2 days</h2>
+          <ul>
+            <li>Very small community (wiki included most members)</li>
+            <li class="fragment">Friendly, mostly academic</li>
+            <li class="fragment">Jon Pretty: <u>the</u> commercial user</li>
+          </ul>
+          <img class="fragment" src="images/jon2_400x400.jpg" height="250">
+        </section>
+
+        <section>
+          <h2>Me: Mostly Web Dev</h2>
+          <ul>
+            <li>Had done a couple of (proprietary) web frameworks</li>
+            <li class="fragment">Spring (the hotness at the time) sucked</li>
+            <li class="fragment">So, I decided to do my own web framework... for Scala</li>
+          </ul>
+          <img class="fragment" src="images/wat.jpg" height="250">
+        </section>
+
+        <section>
+          <h2>Pre-Lift: Scala with Sails</h2>
+          <p>
+            <img src="images/scala_with_sails.png" height="300">
+          </p>
+          <ul>
+            <li>ORM and some Rails-like controller stuff... and Textile</li>
+            <li class="fragment">Dec 7, 2006 - Feb 2007</li>
+            <li class="fragment">Lift name from Roger Rohrbach from Gabble.
+
+            <span class="fragment">Runner up: Escalate</span></li>
+
+          </ul>
+
+        </section>
+
+        <section>
+          <h2>Feeding Bears</h2>
+          <p>
+            <img src="images/woman-feeding-bear.jpg">
+          </p>
+          <ul>
+            <li>Title going back 20+ years</li>
+            <li class="fragment">John Irving: Hotel New Hampshire, etc.</li>
+            <li class="fragment">Balancing community, customers, partners, etc.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Used Lift for photo-sharing dropbox thingie</h2>
+          <ul>
+            <li>Focused on REST</li>
+            <li class="fragment">Some support for Actors and Comet</li>
+            <li class="fragment">Tool-chain challenge <br><img src="images/Errors.png" height="300"></li>
+          </ul>
+        </section>
+
+        <section>
+          <h2><a href="http://radar.oreilly.com/2007/05/liftscala-for-web-apps.html">Tim O'Reilly</a>, May 4, 2007</h2>
+          <p>Not to be left out in the “doing cool things on the web”, is a fairly<br>
+            new framework for <a href="http://www.scala-lang.org/">Scala</a> (another highly functional language with some similar features to Erlang and Smalltalk) called <a href="http://liftweb.net/">lift</a>. There’s <a href="https://web.archive.org/web/20070508023328/http://blog.circleshare.com/index.php?/archives/55-Prance-with-the-Horses,-Skittr-with-the-Mice.html">an interesting post by the author</a> showing a twittr clone he claims can scale to<br>
+            handle twittr’s traffic with only 2 machines thanks to message<br>
+persistence with the Actor based model.</p>
+          <br>
+          <p class="fragment">lift stresses security, developer productivity, ease of deployment, ease of maintainability, performance, and compatibility with existing systems.</p>
+        </section>
+
+
+        <section>
+          <h2>Lift's description, today</h2>
+          <dl align="left">
+	    <dt>Lift applications are:</dt>
+	    <dd><i style="vertical-align: midle;" class="icon-star-empty"></i> <strong>Secure</strong></dd>
+	    <dd><i style="vertical-align: midle;" class="icon-star-empty"></i> <strong>Developer centric</strong></dd>
+	    <dd><i style="vertical-align: midle;" class="icon-star-empty"></i> <strong>Designer friendly</strong></dd>
+	    <dd><i style="vertical-align: midle;" class="icon-star-empty"></i> <strong>Scalable</strong></dd>
+	    <dd><i style="vertical-align: midle;" class="icon-star-empty"></i> <strong>Modular</strong></dd>
+	    <dd><i style="vertical-align: midle;" class="icon-star-empty"></i> <strong>Interactive like a desktop app</strong></dd>
+	  </dl>
+        </section>
+
+        <section>
+          <h2>Early Stuff</h2>
+          <ul>
+            <li>Steve Jenson, Alex Boisvert, and I lived a few blocks from each other</li>
+            <li class="fragment">I vowed never to do a release <span class="fragment">... only broke vow once</span></li>
+            <li class="fragment">David Bernard (another twin dad)
+            set up the build process, system, and infrastructure</li>
+          </ul>
+          <img class="fragment" src="images/06_star-trek-jazz-hands.jpg" height="300">
+        </section>
+
+        <section>
+          <h2>Innovation Games</h2>
           <ul>
             <li></li>
             <li class="fragment"></li>
             <li class="fragment"></li>
           </ul>
         </section>
+
+        <section>
+          <h2>Stuff at SAP</h2>
+          <ul>
+            <li></li>
+            <li class="fragment"></li>
+            <li class="fragment"></li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Ev's Thing</h2>
+          <ul>
+            <li></li>
+            <li class="fragment"></li>
+            <li class="fragment"></li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Twitter</h2>
+          <ul>
+            <li></li>
+            <li class="fragment"></li>
+            <li class="fragment"></li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>ESME</h2>
+          <ul>
+            <li></li>
+            <li class="fragment"></li>
+            <li class="fragment"></li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>AMPLab Scala Preso</h2>
+          <ul>
+            <li></li>
+            <li class="fragment"></li>
+            <li class="fragment"></li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>JavaOne 2009</h2>
+          <ul>
+            <li></li>
+            <li class="fragment"></li>
+            <li class="fragment"></li>
+          </ul>
+        </section>
+
+
+        <section>
+          <h1>Lift Firsts</h1>
+        </section>
+
+        <section>
+          <h2>Maven</h2>
+          <ul>
+            <li></li>
+            <li class="fragment"></li>
+            <li class="fragment"></li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Git &amp; GitHub</h2>
+          <ul>
+            <li></li>
+            <li class="fragment"></li>
+            <li class="fragment"></li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Community Maven Repo: Scala-tools</h2>
+          <ul>
+            <li></li>
+            <li class="fragment"></li>
+            <li class="fragment"></li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Code of Conduct</h2>
+          <ul>
+            <li></li>
+            <li class="fragment"></li>
+            <li class="fragment"></li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>DOM Templating</h2>
+          <ul>
+            <li></li>
+            <li class="fragment"></li>
+            <li class="fragment"></li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Misc Tech Stuffs</h2>
+          <ul>
+            <li>Futures in Scala</li>
+            <li class="fragment">Non-library Actors in Scala</li>
+            <li class="fragment"></li>
+          </ul>
+        </section>
+
+
+        <section>
+          <h1>Lift Futures</h1>
+        </section>
+
+        <!-- template -->
+        <section>
+          <h2>Template</h2>
+          <ul>
+            <li></li>
+            <li class="fragment"></li>
+            <li class="fragment"></li>
+          </ul>
+        </section>
+
+
 
 
 
