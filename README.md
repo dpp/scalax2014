@@ -20,3 +20,7 @@ Image sources:
 * http://fxcnews.com/feeding-bears-can-be-costly/14800/
 * https://www.assembla.com/spaces/scala-ide/tickets/1000672-broken-when-using-m2e-and-m2e-scala#/activity/ticket:
 * http://pascalsplayhouse.com/2014/01/09/attack-of-the-jazz-hands/
+* http://www.clker.com/clipart-28133.html
+* http://southpark.wikia.com/wiki/The_Boys
+* https://about.twitter.com/press/brand-assets
+* http://scienceblogs.com/startswithabang/2013/10/13/weekend-diversion-is-this-an-amazing-chorus-of-slowed-down-crickets/
